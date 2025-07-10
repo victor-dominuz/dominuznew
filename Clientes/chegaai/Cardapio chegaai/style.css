@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+}
+
+#carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  width: 100vw;
+  height: 100vh;
+}
+
+#carousel img {
+  flex-shrink: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
