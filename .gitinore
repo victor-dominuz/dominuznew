@@ -1,0 +1,4 @@
+node_modules/
+.env
+ngrok.exe
+bfg-1.40.jar
