@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "João da Silva",
+    "status": "Novo",
+    "data": "14/07/2025",
+    "local": "Sapiranga - RS",
+    "video": "video1.mp4",
+    "historico": "Samuel: Diz que é na coluna, mais difícil."
+  },
+  {
+    "nome": "Maria Oliveira",
+    "status": "Novo",
+    "data": "14/07/2025",
+    "local": "Campo Bom - RS",
+    "video": "video2.mp4",
+    "historico": "Samuel: Esse é médio, dá pra fazer rápido."
+  },
+  {
+    "nome": "Carlos Henrique",
+    "status": "Novo",
+    "data": "14/07/2025",
+    "local": "Estância Velha - RS",
+    "video": "video3.mp4",
+    "historico": "Samuel: Esse é rápido, sem pintura."
+  }
+]
