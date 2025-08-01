@@ -6,7 +6,8 @@ const fs = require('fs');
 
 const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_TOKEN);
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY }));
+  apiKey: process.env.OPENAI_API_KEY
+});
 
 const saudacoes = ["oi", "olá", "e aí", "boa", "opa", "blz", "beleza", "tudo bem"];
 const emojis = ["😀", "😊", "👍", "🙏", "👏", "🙌", "👋"];
