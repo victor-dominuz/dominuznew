@@ -1,11 +1,12 @@
 require('dotenv').config();
 console.log("Bot do Chega Aí iniciado com sucesso");
-const { Configuration, OpenAIApi } = require('openai');
+const { OpenAI } = require('openai');
 const twilio = require('twilio');
 const fs = require('fs');
 
 const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_TOKEN);
-const openai = new OpenAIApi(new Configuration({ apiKey: process.env.OPENAI_API_KEY }));
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY }));
 
 const saudacoes = ["oi", "olá", "e aí", "boa", "opa", "blz", "beleza", "tudo bem"];
 const emojis = ["😀", "😊", "👍", "🙏", "👏", "🙌", "👋"];
